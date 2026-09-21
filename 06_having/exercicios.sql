@@ -32,3 +32,11 @@ SELECT categoria
 FROM produtos
 GROUP BY categoria
 HAVING MAX(preco) > 1000;
+
+-- Interview Challenge
+-- Return categories whose highest product price is greater than 1000
+
+SELECT categoria
+FROM produtos
+GROUP BY categoria
+HAVING MAX(preco) > 1000;
